@@ -1,9 +1,9 @@
 /*Importación de clases*/
 import {Cliente} from './Cliente.js'
-import {CuentaCorriente} from './CuentaCorriente.js';
-import { CuentaAhorro } from './CuentaAhorro.js';
+import {CuentaCorriente} from './Cuentas/CuentaCorriente.js';
+import { CuentaAhorro } from './Cuentas/CuentaAhorro.js';
 import { Cuenta } from './Cuentas/Cuenta.js';
-import { CuentaNomina } from './CuentaNomina.js';
+import { CuentaNomina } from './Cuentas/CuentaNomina.js';
 const cliente = new Cliente('Leonardo','13804050','123224');
 const cliente2 = new Cliente('María','16979808','8989');
 
