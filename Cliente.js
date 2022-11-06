@@ -14,7 +14,8 @@ export class Cliente
     asignarClave(clave){
         this.#clave = clave;
     }
-    get clave(){
-        return this.#clave;
+    /////se vera en la proxima clase
+    autenticable(clave){
+        return true;
     }
 }
