@@ -4,7 +4,7 @@ export class Cuenta{
 
     constructor(cliente, numero, agencia,saldo) {
         if(this.contructor == Cuenta){
-            throw new Error("No se debe instancias objetos de la clase cuenta")
+            throw new Error("No se debe instancias objetos de la clase cuenta");
         }
         this.#cliente = cliente;
         this.numero = numero;

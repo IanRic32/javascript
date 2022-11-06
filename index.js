@@ -1,5 +1,5 @@
 /*Importación de clases*/
-import {Cliente} from './Cliente.js'
+import {Cliente} from './Cliente.js';
 import {CuentaCorriente} from './Cuentas/CuentaCorriente.js';
 import { CuentaAhorro } from './Cuentas/CuentaAhorro.js';
 import { Cuenta } from './Cuentas/Cuenta.js';
