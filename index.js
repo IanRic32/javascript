@@ -7,6 +7,9 @@ import { CuentaNomina } from './Cuentas/CuentaNomina.js';
 import { Empleado } from './Empleados/Empleado.js';
 import { Gerente } from './Empleados/Gerente.js';
 import { Director } from './Empleados/Director.js';
+
+import { SistemaAutenticacion } from './SistemaAutenticacion.js';
+
 const cliente = new Cliente('Leonardo','13804050','123224');
 const cliente2 = new Cliente('María','16979808','8989');
 /*
@@ -17,5 +20,6 @@ const cuentaAhorroLeonardo = new CuentaAhorro(cliente,'9985','001',0);
 const cuentaSimple= new Cuenta(cliente,'098','001',100);
 */
 const empleado= new Empleado('Ian Velazquez','123456');
+empleado.asignarClave('12345');
 const gerente= new Gerente('Ian Velazquez','678910');
 const director= new Director('Carlos Perez','654321');
